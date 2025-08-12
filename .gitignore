@@ -1,0 +1,50 @@
+# Dependency folders
+node_modules/
+prod/
+backups/
+.npm
+.pnpm
+.yarn/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Build Results
+dist/
+build/
+out/
+public/bundle.js
+
+# Tests and code coverage
+coverage/
+.nyc_output/
+
+# IDE Settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Package Managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Additional files
+.cache/
+dump.rdb
+*.pid
